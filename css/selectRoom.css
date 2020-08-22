@@ -103,6 +103,7 @@
     border-radius: 50%;
 }
 .left-container .class-name{
+    margin-top:10px;
     width: 100%;
     height: 10%;
     font-family: 'Roboto', sans-serif;
@@ -140,10 +141,11 @@
 /* -------------------------------------------------right container----------------------- */
 .left-container label{
     font-size: 18px;
-    margin: 10px 0;
+    margin-top: 20px;
 }
 .right-container{
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     display: flex;
     flex-grow: 1;
 }
@@ -170,3 +172,18 @@
 .right-container .room-list .room-bar:hover{
     background: #c5c2c2;
 }
+.new-room-bnt{
+    font-size: 15px;
+    color: rgba(1,1,1,0.8);
+    cursor: pointer;
+    margin-top:20px;
+    width: 135px;
+    height: 40px;
+    outline:none;
+    background: #8DD4F2;
+    border: 1px solid #00E1EF;
+    box-sizing: border-box;
+}
+.new-room-bnt:hover {
+    transform: scale(1.1)
+  }
