@@ -157,7 +157,6 @@
     height: 40px;
     border-radius: 10px;
     display: flex;
-    padding: 0 10px;
     margin-bottom: 30px;
 }
 .room-list .room-bar div{
@@ -166,6 +165,7 @@
     white-space: nowrap; 
     line-height: 40px;
     text-align: center;
+    width: 20%;
 }
 .right-container .room-list .room-bar:hover{
     background: #c5c2c2;
